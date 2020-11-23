@@ -4,6 +4,7 @@ h1 {
   font-size: 30pt;
   color: darkslategray;
   text-shadow: 10px 10px 22px rgb(255, 9, 9);
+  margin: 0px auto 10px auto;
   }
 
 p {
@@ -11,10 +12,12 @@ p {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 10px 5px 5px rgb(255, 9, 9);
+  margin: 10px auto 10px auto;
 }
 
 .info {
   text-align: right;
+  margin: 10px auto 10px auto;
 }
 
 body {
@@ -27,6 +30,7 @@ button.btn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 button.btn1 {
@@ -37,7 +41,8 @@ button.btn1 {
   font-size: 10pt;
   padding: 55px;
   margin: 5px;
-  margin-left: 55px;
+  margin-left: 10px;
+  
 }
 
 button.btn2 {
