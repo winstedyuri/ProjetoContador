@@ -1,22 +1,60 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-color: #0077ff;
+  background-color: #539aec;
 }
 
 h1 {
   font-size: 30pt;
-  color: darkslategray;
-  text-shadow: 10px 10px 22px rgb(255, 9, 9);
+  color: rgb(255, 251, 0);
+  text-shadow: 10px 5px 5px rgb(0, 0, 0);
   margin: 0px auto 10px auto;
   }
 
 p {
-  color:darkslategray;
-  text-shadow: 10px 5px 5px rgb(255, 9, 9);
+  color:rgb(251, 227, 8);
+  font-weight: bolder;
+  font-size: 20px;
+  text-shadow: 10px 5px 5px rgb(0, 0, 0);
   margin: 10px auto 10px auto;
 }
 
 input, button {
   margin: 10px;
+  border-radius: 10px;
+  border-color:  rgb(255, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+button.btn {
+  color: rgb(243, 109, 109);
+}
+
+button.btn:hover {
+  background-color:#020202;
+}
+
+button.btn1 {
+  color: green ;
+}
+
+button.btn1:hover {
+  background-color:#020202;
+}
+
+button.btn2 {
+  color: blue;
+}
+
+button.btn2:hover {
+    background-color: hsl(103, 100%, 50%);
+}
+
+button.btn4 {
+  color: #01c4ff;
+}
+
+button.btn4:hover {
+  background-color: blue;
 }
